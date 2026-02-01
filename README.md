@@ -48,6 +48,14 @@ The Flask application exposes:
 - A prediction API (`/predict`) that accepts JSON input and returns risk classification
 
 ---
-
 ## 📂 Project Structure
+
+├── app.py # Flask web application
+├── model.py # Machine learning model logic
+├── requirements.txt # Python dependencies
+├── combined_mortality_dataset.csv # Dataset used for training
+├── templates/
+│ └── index.html # Frontend UI
+└── README.md # Project documentation
+
 
