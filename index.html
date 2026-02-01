@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tobacco Mortality Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚬 Tobacco Mortality Predictor</h1>
+    <p>Enter details to estimate mortality risk</p>
+
+    <input type="number" id="age" placeholder="Age">
+    <input type="number" id="cigarettes" placeholder="Cigarettes per day">
+    <input type="number" id="years" placeholder="Years of smoking">
+    <input type="number" id="income" placeholder="Monthly income">
+    
+    <select id="disease">
+        <option value="0">No Pre-existing Disease</option>
+        <option value="1">Has Pre-existing Disease</option>
+    </select>
+
+    <button onclick="predict()">Predict</button>
+
+    <h2 id="result"></h2>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
